@@ -12,8 +12,6 @@ Diamond price prediction
 author: Elisa Parini
 date: 18 October 2020
 autosize: true
-transition: rotate
-transition-speed: slow
 
 Overview
 ========================================================
@@ -56,4 +54,4 @@ The application is drawing plot of diamonds in the `diamonds` data set distribut
 
 By selecting specific features of the diamond (carat, cut, clarity, color) the user is able to sub select the data set and the regression is recalculated based only on the diamonds in the data set that share the same features. If no features are selected the regression model is using all diamonds in the data set.
 
-Below the graph the predicted price is shown.
+
